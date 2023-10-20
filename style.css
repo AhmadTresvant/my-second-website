@@ -114,6 +114,7 @@ h2 {
   font-family: 'Roboto Condensed';
   margin-top: 10px;
   margin-right: 20px;
+  text-shadow: crimson 2px 2px;
 }
 
 a {
@@ -262,14 +263,14 @@ h3 {
 }
 
 
-@media (max-width:767px) {
+@media (max-width:400px) {
   a {
     display: none;
   }
  
 }
 
-@media (min-width:767px) {
+@media (min-width:400px) {
   .dropdown{
     display: none;
   }
