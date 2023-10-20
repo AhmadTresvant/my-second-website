@@ -15,7 +15,7 @@ ul{
 }
 
 header {
-  background-color: 2B2D42;
+  background-image: url(images/straw-hat-flag.jpeg);
   border: solid red 5px;
   text-shadow: 2px 2px black;
   border-radius: 15px;
@@ -115,6 +115,7 @@ h2 {
   margin-top: 10px;
   margin-right: 20px;
   text-shadow: crimson 2px 2px;
+  color: white;
 }
 
 a {
@@ -256,6 +257,12 @@ h3 {
 #page-container {
   position: relative;
   min-height: 100vh;
+}
+
+.flex-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width:400px) {
