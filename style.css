@@ -1,0 +1,186 @@
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-element {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+ul{
+  list-style-type: none;
+  display: inline;
+}
+
+header {
+  background-color: 2B2D42;
+  border: solid red 5px;
+}
+
+li {
+  display: inline;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a {
+  color: EDF2F4;
+  padding: 10px;
+  margin: 20px;
+  border: solid 3px;
+  border-radius: 10px;
+  border-color: EF233C;
+  text-decoration: none;
+  background-color: 8D99AE;
+}
+
+nav {
+  display: inline;
+}
+
+
+h1 {
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+  color: EDF2F4;
+  font-size: 20px;
+}
+
+section :first-child {
+  text-align: center;
+  background-color: 8D99AE;
+  color: edf2f4;
+  font-family: 'Pixelify Sans';
+}
+
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: solid 5px;
+  border-color: EF233C;
+}
+
+main {
+  background-color: 2B2D42;
+}
+
+body {
+  background-color: 8D99AE;
+  margin-top: 100px;
+  
+}
+
+p {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto Condensed';
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Pixelify Sans';
+}
+
+.name {
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: crimson;
+  font-family: 'Permanent Marker';
+  margin-right: 20px;
+}
+
+a {
+  font-family: 'Roboto Condensed';
+}
+
+.about {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto Condensed';
+}
+
+main :first-child {
+  text-align: center;
+  font-family: 'Pixelify Sans';
+}
+
+footer {
+  background-color: crimson;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.home {
+  font-size: 20px;
+  background-color: ef233c;
+}
+
+.header {
+  font-family: 'Roboto Condensed';
+  font-size: 30px;
+}
+
+.home-p {
+  background-color: 2B2D42;
+}
+
+.navbar {
+  position: fixed;
+  width: 97%;
+  top: 0;
+}
+
+h3 {
+  color: crimson;
+  font-family: 'Pixelify Sans';
+  background-color: white;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: solid crimson 3px;
+}
+ input {
+  width: 100%;
+ }
+
+ #submit {
+  width: 20%;
+  background-color:8D99AE;
+  border: 5px solid red;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Roboto Condensed';
+ }
+
+ form {
+  background-color: 2B2D42;
+  border: 5px solid red;
+ }
+
+ .flex-container-submit {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+ }
+
+ label {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto Condensed';
+ }
