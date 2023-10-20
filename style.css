@@ -18,6 +18,7 @@ header {
   background-color: 2B2D42;
   border: solid red 5px;
   text-shadow: 2px 2px black;
+  border-radius: 15px;
 }
 
 li {
@@ -43,8 +44,11 @@ a {
 
 a:hover {
   background-color: crimson;
-}
 
+}
+section :first-child:hover {
+  font-size: 3rem;
+}
 nav {
   display: inline;
 }
@@ -80,13 +84,14 @@ img {
 
 main {
   background-color: 2B2D42;
-  box-shadow: 10px 10px
-  ;
+  box-shadow: 10px 10px;
+  border-radius: 15px;
+  
 }
 
 body {
   background-color: 8D99AE;
-  margin-top: 100px;
+  margin-top: 120px;
   
 }
 
@@ -143,6 +148,9 @@ footer {
 .home {
   font-size: 20px;
   background-color: ef233c;
+  border-radius: 15px;
+  border: white solid 3px;
+  box-shadow: 4px 4px black;
 }
 
 .header {
@@ -152,6 +160,9 @@ footer {
 
 .home-p {
   background-color: 2B2D42;
+  border-radius: 15px;
+  border: white solid 3px;
+  box-shadow: 4px 4px black;
 }
 
 .navbar-o {
@@ -210,6 +221,10 @@ h3 {
   font-family: 'Roboto Condensed';
   margin: 0; 
   text-shadow: 2px 2px black;
+}
+.dropdown {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
