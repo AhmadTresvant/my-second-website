@@ -40,6 +40,11 @@ a {
   background-color: 8D99AE;
 }
 
+a:hover {
+  background-color: crimson;
+}
+
+
 nav {
   display: inline;
 }
