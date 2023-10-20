@@ -227,10 +227,6 @@ h3 {
   margin: 0; 
   text-shadow: 2px 2px black;
 }
-.dropdown {
-  display: flex;
-  justify-content: flex-end;
-}
 
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: crimson;
@@ -263,6 +259,15 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.dropbtn {
+  display: flex;
 }
 
 @media (max-width:400px) {
