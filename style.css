@@ -40,6 +40,7 @@ a {
   border-color: EF233C;
   text-decoration: none;
   background-color: 8D99AE;
+  box-shadow: 4px 4px black;
 }
 
 a:hover {
@@ -70,6 +71,7 @@ section :first-child {
   text-shadow: 4px 4px black;
   border: solid 4px white;
   border-radius: 15px;
+  box-shadow: 4px 4px black;
 }
 
 img {
@@ -123,6 +125,7 @@ a {
   text-align: center;
   color: white;
   font-family: 'Roboto Condensed';
+  text-shadow: 2px 2px crimson;
 }
 
 main :first-child {
@@ -260,10 +263,6 @@ h3 {
 
 
 @media (max-width:767px) {
-  body {
-    background-color: yellow;
-  }
-
   a {
     display: none;
   }
