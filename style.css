@@ -238,19 +238,15 @@ h3 {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: 2B2D42 ;
-  min-width: 120px;
-  z-index: 10;
+  background-color: 2B2D42;
   border-radius: 15px;
   border: 5px white solid;
 }
 
 .dropdown-content a {
-  float: none;
   color: white;
   padding: 10px 10px;
   display: block;
-  text-align: left;
 }
 
 .dropdown:hover .dropdown-content {
@@ -261,7 +257,6 @@ h3 {
   position: relative;
   min-height: 100vh;
 }
-
 
 @media (max-width:400px) {
   a {
