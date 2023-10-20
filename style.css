@@ -144,7 +144,7 @@ footer {
   background-color: 2B2D42;
 }
 
-.navbar {
+.navbar-o {
   position: fixed;
   width: 97%;
   top: 0;
@@ -189,3 +189,52 @@ h3 {
   font-size: 20px;
   font-family: 'Roboto Condensed';
  }
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: red solid 3px;
+  border-radius: 15px;
+  color: white;
+  padding: 10px 10px;
+  background-color: 8D99AE;
+  font-family: 'Roboto Condensed';
+  margin: 0; 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: crimson;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: 2B2D42 ;
+  min-width: 120px;
+  z-index: 10;
+  border-radius: 15px;
+  border: 5px white solid;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 10px 10px;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media (max-width:767px) {
+  body {
+    background-color: yellow;
+  }
+
+  a {
+    display: none;
+  }
+ 
+}
