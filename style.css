@@ -86,9 +86,10 @@ img {
 }
 
 main {
-  background-image: url(images/one-piece-logo.jpeg);
+  background-color: 2B2D42;
   box-shadow: 10px 10px;
   border-radius: 15px;
+  
 }
 
 body {
@@ -264,6 +265,10 @@ h3 {
 .dropdown {
   display: flex;
   justify-content: flex-start;
+}
+
+.home-background {
+  background-image: url(images/one-piece-logo.jpeg);
 }
 
 @media (max-width:400px) {
