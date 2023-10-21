@@ -19,6 +19,7 @@ header {
   border: solid red 5px;
   text-shadow: 2px 2px black;
   border-radius: 15px;
+  box-shadow: 4px 4px black;
 }
 
 li {
@@ -85,10 +86,9 @@ img {
 }
 
 main {
-  background-color: 2B2D42;
+  background-image: url(images/one-piece-logo.jpeg);
   box-shadow: 10px 10px;
   border-radius: 15px;
-  
 }
 
 body {
@@ -264,10 +264,6 @@ h3 {
 .dropdown {
   display: flex;
   justify-content: flex-start;
-}
-
-.dropbtn {
-  display: flex;
 }
 
 @media (max-width:400px) {
