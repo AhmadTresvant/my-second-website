@@ -55,12 +55,15 @@ nav {
   display: inline;
 }
 
+.home:hover {
+  font-size: 3rem;
+}
+
 h1 {
   text-align: right;
   padding: 0px;
   margin: 0px;
   color: EDF2F4;
-
   z-index: 7;
 }
 
